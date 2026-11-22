@@ -18,6 +18,8 @@ class RoadNetwork:
         self._pos = {}        # node -> (x, y)
         self._out = {}        # node -> {neighbour: seconds}  (forward roads)
         self._in = {}         # node -> {neighbour: seconds}  (reverse roads)
+        self.version = 0      # Phase 3: bumped on every change so cached
+                              # compact copies know when to refresh
 
     # ---- building the graph -------------------------------------------
     def add_intersection(self, node, x, y):
@@ -25,6 +27,7 @@ class RoadNetwork:
         if not all(isinstance(v, (int, float)) for v in (x, y)):
             raise TypeError("coordinates must be numbers")
         self._pos[node] = (float(x), float(y))
+        self.version += 1
         self._out.setdefault(node, {})
         self._in.setdefault(node, {})
 
@@ -47,6 +50,7 @@ class RoadNetwork:
         if seconds < self._out[u].get(v, math.inf):
             self._out[u][v] = seconds
             self._in[v][u] = seconds
+            self.version += 1
 
     # ---- queries ------------------------------------------------------
     def position(self, node):

@@ -1,0 +1,258 @@
+{
+ "python": "3.13.18",
+ "machine": "x86_64",
+ "data": {
+  "scale": {
+   "50": {
+    "V": 2500,
+    "drivers": 125,
+    "req_per_min": 7.5,
+    "phase2": {
+     "submitted": 68,
+     "matched": 68,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.16770386765288361,
+     "dispatch_s": 0.011403863000396086,
+     "gps_us_per_update": 2.3505723550492448,
+     "gps_updates": 2930,
+     "mean_eta_s": 86.25258641824865,
+     "p95_eta_s": 183.8205866282263,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 68,
+     "matched": 68,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.11367820589632228,
+     "dispatch_s": 0.007730118000949915,
+     "gps_us_per_update": 0.706580204855108,
+     "gps_updates": 2930,
+     "mean_eta_s": 86.25258641824865,
+     "p95_eta_s": 183.8205866282263,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 1017,
+     "cache_hit_rate": null
+    }
+   },
+   "100": {
+    "V": 10000,
+    "drivers": 500,
+    "req_per_min": 30.0,
+    "phase2": {
+     "submitted": 309,
+     "matched": 309,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.23429942071223925,
+     "dispatch_s": 0.07239852100008193,
+     "gps_us_per_update": 2.829786941556699,
+     "gps_updates": 10476,
+     "mean_eta_s": 117.16606260342667,
+     "p95_eta_s": 248.45281822120793,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 309,
+     "matched": 309,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.14521054692631644,
+     "dispatch_s": 0.04487005900023178,
+     "gps_us_per_update": 1.6049824360179343,
+     "gps_updates": 10476,
+     "mean_eta_s": 117.16606260342667,
+     "p95_eta_s": 248.45281822120793,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 9469,
+     "cache_hit_rate": null
+    }
+   },
+   "200": {
+    "V": 40000,
+    "drivers": 2000,
+    "req_per_min": 120.0,
+    "phase2": {
+     "submitted": 1198,
+     "matched": 1198,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.5202403013359367,
+     "dispatch_s": 0.6232478810004523,
+     "gps_us_per_update": 4.6236745053083945,
+     "gps_updates": 42652,
+     "mean_eta_s": 177.6488278021999,
+     "p95_eta_s": 417.99402524677487,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 1198,
+     "matched": 1198,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.28858512854801843,
+     "dispatch_s": 0.3457249840005261,
+     "gps_us_per_update": 1.2527837616246755,
+     "gps_updates": 42652,
+     "mean_eta_s": 177.6488278021999,
+     "p95_eta_s": 417.99402524677487,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 101520,
+     "cache_hit_rate": null
+    }
+   },
+   "316": {
+    "V": 99856,
+    "drivers": 4992,
+    "req_per_min": 299.52,
+    "phase2": {
+     "submitted": 3016,
+     "matched": 3016,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 1.2995835828913511,
+     "dispatch_s": 3.9195440860003146,
+     "gps_us_per_update": 6.422680263269325,
+     "gps_updates": 106203,
+     "mean_eta_s": 259.46153984336365,
+     "p95_eta_s": 572.0243623312265,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 3016,
+     "matched": 3016,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.5225882576258132,
+     "dispatch_s": 1.5761261849994526,
+     "gps_us_per_update": 1.4689326384350443,
+     "gps_updates": 106203,
+     "mean_eta_s": 259.46153984336365,
+     "p95_eta_s": 572.0243623312265,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 677294,
+     "cache_hit_rate": null
+    }
+   }
+  },
+  "detail": {
+   "normal": {
+    "phase2": {
+     "submitted": 2400,
+     "matched": 2400,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.9119839695830478,
+     "dispatch_s": 2.188761526999315,
+     "gps_us_per_update": 3.833358339858049,
+     "gps_updates": 100907,
+     "mean_eta_s": 227.61908210342003,
+     "p95_eta_s": 537.5795667891691,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 2400,
+     "matched": 2400,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.3321356687504817,
+     "dispatch_s": 0.7971256050011561,
+     "gps_us_per_update": 1.4270527416280152,
+     "gps_updates": 100907,
+     "mean_eta_s": 227.61908210342003,
+     "p95_eta_s": 537.5795667891691,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 294684,
+     "cache_hit_rate": null
+    },
+    "cached": {
+     "submitted": 2400,
+     "matched": 2400,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 0.14403828291634113,
+     "dispatch_s": 0.3456918789992187,
+     "gps_us_per_update": 1.2994955850427663,
+     "gps_updates": 100907,
+     "mean_eta_s": 227.61908210342003,
+     "p95_eta_s": 537.5795667891691,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 215808,
+     "cache_hit_rate": 0.3591666666666667
+    },
+    "batch": {
+     "submitted": 2400,
+     "matched": 2400,
+     "left_waiting": 0,
+     "dispatch_ms_per_match": 1.0550628750000612,
+     "dispatch_s": 2.532150900000147,
+     "gps_us_per_update": 1.3763632916551887,
+     "gps_updates": 100740,
+     "mean_eta_s": 228.75143370252965,
+     "p95_eta_s": 550.8760552632565,
+     "mean_queue_wait_s": 0.0,
+     "nodes_settled": 1233350,
+     "cache_hit_rate": null
+    }
+   },
+   "rush": {
+    "phase2": {
+     "submitted": 4755,
+     "matched": 3603,
+     "left_waiting": 1152,
+     "dispatch_ms_per_match": 10.379865532889188,
+     "dispatch_s": 37.398655514999746,
+     "gps_us_per_update": 4.904340500149825,
+     "gps_updates": 40790,
+     "mean_eta_s": 648.2470087772776,
+     "p95_eta_s": 2164.0470314272825,
+     "mean_queue_wait_s": 77.34110463502637,
+     "nodes_settled": null,
+     "cache_hit_rate": null
+    },
+    "grid+A*": {
+     "submitted": 4755,
+     "matched": 3598,
+     "left_waiting": 1157,
+     "dispatch_ms_per_match": 2.042644954141064,
+     "dispatch_s": 7.3494365449995485,
+     "gps_us_per_update": 1.3743147072282391,
+     "gps_updates": 40803,
+     "mean_eta_s": 649.2571666840241,
+     "p95_eta_s": 2158.428595741932,
+     "mean_queue_wait_s": 76.82045580878265,
+     "nodes_settled": 4054817,
+     "cache_hit_rate": null
+    },
+    "cached": {
+     "submitted": 4755,
+     "matched": 3598,
+     "left_waiting": 1157,
+     "dispatch_ms_per_match": 1.632562543357238,
+     "dispatch_s": 5.873960030999342,
+     "gps_us_per_update": 1.4356597309223136,
+     "gps_updates": 40803,
+     "mean_eta_s": 649.2571666840241,
+     "p95_eta_s": 2158.428595741932,
+     "mean_queue_wait_s": 76.82045580878265,
+     "nodes_settled": 6191506,
+     "cache_hit_rate": 0.3576987215119511
+    },
+    "batch": {
+     "submitted": 4755,
+     "matched": 3616,
+     "left_waiting": 1139,
+     "dispatch_ms_per_match": 8.665575438329316,
+     "dispatch_s": 31.334720784998808,
+     "gps_us_per_update": 1.4931726251806052,
+     "gps_updates": 40782,
+     "mean_eta_s": 579.4801697148035,
+     "p95_eta_s": 1646.5942921067049,
+     "mean_queue_wait_s": 77.32853982300885,
+     "nodes_settled": 16400865,
+     "cache_hit_rate": null
+    }
+   }
+  }
+ }
+}

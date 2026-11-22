@@ -1,0 +1,80 @@
+{
+ "python": "3.13.18",
+ "machine": "x86_64",
+ "data": {
+  "gps_storm": {
+   "kdtree": {
+    "updates_s": 10.65256040600002,
+    "us_per_update": 10.65256040600002,
+    "query_us_after": 25.87488500012114,
+    "rebuilds": 10,
+    "correct": true
+   },
+   "grid": {
+    "updates_s": 1.890281701000049,
+    "us_per_update": 1.890281701000049,
+    "query_us_after": 23.137609999821507,
+    "rebuilds": 0,
+    "correct": true
+   }
+  },
+  "cancel_flood": {
+   "requests": 1000000,
+   "live": 10000,
+   "heap_entries": 15555,
+   "purges": 625,
+   "us_per_op": 0.37113624649998656,
+   "first_pop": 0
+  },
+  "same_spot": {
+   "kdtree_bulk": {
+    "drivers": 20000,
+    "build_s": 0.03326545699997041,
+    "query_ms": 0.0061452950001239515
+   },
+   "kdtree_insert": {
+    "drivers": 5000,
+    "build_s": 0.5351516620000893,
+    "query_ms": 1.523669844999631
+   },
+   "grid": {
+    "drivers": 20000,
+    "build_s": 0.007635978999815052,
+    "query_ms": 2.2119755300002453
+   }
+  },
+  "unreachable": {
+   "phase2": {
+    "matched": 95,
+    "still_waiting": 50,
+    "seconds": 19.59291347599992
+   },
+   "phase3": {
+    "matched": 95,
+    "still_waiting": 50,
+    "seconds": 0.0587810829999853
+   }
+  },
+  "surge": {
+   "phase2": {
+    "matched": 2000,
+    "seconds": 56.63220020299991,
+    "ms_per_match": 28.316100101499956,
+    "mean_eta_s": 1446.7534717842964
+   },
+   "grid+A*": {
+    "matched": 2000,
+    "seconds": 33.57560923699998,
+    "ms_per_match": 16.78780461849999,
+    "mean_eta_s": 1446.7534717842964
+   },
+   "cached": {
+    "matched": 2000,
+    "seconds": 0.4065413149999131,
+    "ms_per_match": 0.20327065749995654,
+    "mean_eta_s": 1446.7534717842964,
+    "hit_rate": 0.709
+   }
+  }
+ }
+}
